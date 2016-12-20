@@ -9,7 +9,7 @@ system.js/map
 app.components
 
 
-``
+````
 import { Component,OnInit } from '@angular/core';
 import {HttpModule,Http,Jsonp,URLSearchParams } from  '@angular/http';
 import './rxjs-operators';
@@ -32,4 +32,4 @@ export class AppComponent implements OnInit  {
 
  }
 
-``
+````
