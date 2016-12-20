@@ -1,3 +1,10 @@
+https://github.com/DefinitelyTyped/DefinitelyTyped
+adrsinde tipler tanımlı
+
 underscore tipleri için tanımlama
 
 npm install --save @types/underscore
+
+
+import * as _ from 'underscore';
+import * as $ from 'jquery';
