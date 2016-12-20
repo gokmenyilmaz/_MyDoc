@@ -6,6 +6,8 @@ npm install --save @types/jquery
 system.js/map
 'jquery':'npm:jquery'
 
+app.module.ts ye birşey yapma
+
 app.components
 
 
@@ -20,7 +22,7 @@ import * as $ from 'jquery';
   template: `Angular <br>
   <input id="search" type="text" class="form-control">
    
-  `,
+  `
 })
 export class AppComponent implements OnInit  { 
   ngOnInit()
