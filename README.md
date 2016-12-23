@@ -1,1 +1,1 @@
-"# AsapNetCore1_MyDoc" 
+# Genel Notlar
