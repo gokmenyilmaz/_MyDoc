@@ -1,1 +1,3 @@
 # Genel Notlar
+
+Gist yerine :)
