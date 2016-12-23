@@ -1,0 +1,32 @@
+````
+//dc.Kullanıcı.Load();
+
+            Kullanıcı k = new Kullanıcı();
+
+            k.Id = 1;
+            k.KullanıcıAd = "1111111xxxxxxxxx";
+
+            dc.Entry(k).State = EntityState.Modified;
+
+
+            dc.SaveChanges();
+
+
+
+1. satır çalışırsa hata verir
+çünkü tracking başlamıştır
+
+
+codefirst te ayrıca attach demeye gerek yok
+
+
+
+MVC de her yüklemede constractur çalıştığı için modify sorun vermez
+constructur yeni dbontext oluştutur devamlı
+
+*************
+AsNoTracking 
+de 
+
+local kısma veri atmaz. önemli bir konu
+````
