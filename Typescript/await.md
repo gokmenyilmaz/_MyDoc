@@ -1,4 +1,6 @@
 https://www.youtube.com/watch?v=WEWVpt6muMs&feature=youtu.be
+
+https://goo.gl/ZtcJOp typescript playground
 bora kaşmer
 asenkron fonksiyonlarda await kullanınımı . Typescript 2.1
 
