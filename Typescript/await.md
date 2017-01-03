@@ -2,7 +2,7 @@
 //bora kaşmer
 asenkron fonksiyonlarda await kullanınımı . Typescript 2.1
 
-´´´´
+````
 class Welcome {
     saying: string;
 
@@ -52,4 +52,4 @@ button.onclick = function () {
     greeter.dramaticWelcome();
 }
 
-´´´´
+````
