@@ -1,5 +1,5 @@
-//https://www.youtube.com/watch?v=WEWVpt6muMs&feature=youtu.be
-//bora kaşmer
+https://www.youtube.com/watch?v=WEWVpt6muMs&feature=youtu.be
+bora kaşmer
 asenkron fonksiyonlarda await kullanınımı . Typescript 2.1
 
 ````
