@@ -1,6 +1,6 @@
 ## Devexpress wpf clickonce hatası ##
 #### Belirtiler
-Clickonce ile publish edildikten sonra kurulum sonunda aniden kapanması
+__Clickonce ile publish edildikten sonra kurulum sonunda aniden kapanması__
 #### Çözüm
 ````
 DevExpress.Xpf.Themes.Office2016White.v16.2 referanslara ekleyip 
