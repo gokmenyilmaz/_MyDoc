@@ -1,4 +1,4 @@
-#Devexpress wpf clickonce hatası#
+## Devexpress wpf clickonce hatası ##
 #### Belirtiler
 Clickonce ile publish edildikten sonra kurulum sonunda aniden kapanması
 #### Çözüm
