@@ -15,5 +15,5 @@ then the problem resoving when publish again
 https://gokmen1977.visualstudio.com/_admin
 go to screen menu
 
-![Silme menüsü](https://raw.githubusercontent.com/gokmenyilmaz/_MyDoc/master/_images/tfsSil.png)
+![delete menu item](https://raw.githubusercontent.com/gokmenyilmaz/_MyDoc/master/_images/tfsSil.png)
 ````
