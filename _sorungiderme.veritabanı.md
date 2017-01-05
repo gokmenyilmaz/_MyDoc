@@ -9,7 +9,6 @@ yeniden publish edince sorun düzeliyor.
 
 ### Tfs Proje silme ###
 > proje silme ekranı pasif
-
 ````
 https://gokmen1977.visualstudio.com/_admin
 ekranına gel ordan sil
