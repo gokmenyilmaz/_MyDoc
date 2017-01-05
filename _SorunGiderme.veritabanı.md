@@ -4,7 +4,7 @@
 
 ````
 DevExpress.Xpf.Themes.Office2016White.v16.2 add referanses
-then problem resoving when publish again
+then the problem resoving when publish again
 
 ````
 
