@@ -3,8 +3,9 @@
 > Application suddenly closing when it after installation
 
 ````
-DevExpress.Xpf.Themes.Office2016White.v16.2 referanslara ekleyip 
-yeniden publish edince sorun düzeliyor.
+DevExpress.Xpf.Themes.Office2016White.v16.2 add referanses
+then problem resoving when publish again
+
 ````
 
 ### Tfs delete project ###
