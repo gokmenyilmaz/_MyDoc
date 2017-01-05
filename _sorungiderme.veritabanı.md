@@ -1,4 +1,5 @@
 *Devexpress wpf clickonce hatası*
+
 __Belirtileri:__
 Clickonce ile publish edildikten sonra kurulum sonunda aniden kapanması
 __Cevap:__
