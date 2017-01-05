@@ -13,5 +13,5 @@ yeniden publish edince sorun düzeliyor.
 https://gokmen1977.visualstudio.com/_admin
 ekranına gel ordan sil
 
-![Silme menüsü](https://raw.githubusercontent.com/gokmenyilmaz/_MyDoc/master/_images/tfsSil.png=100x20)
+![Silme menüsü](https://raw.githubusercontent.com/gokmenyilmaz/_MyDoc/master/_images/tfsSil.png)
 ````
