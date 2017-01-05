@@ -1,5 +1,5 @@
 
-## Devexpress wpf clickonce hatası ##
+### Devexpress wpf clickonce hatası ###
 >  publish edildikten sonra kurulum sonunda aniden kapanması
 
 ````
