@@ -17,8 +17,8 @@ go to screen menu
 
 ![delete menu item](https://raw.githubusercontent.com/gokmenyilmaz/_MyDoc/master/_images/tfsSil.png)
 ````
-###Github pages file not found 404 hatası
+###Github pages file not found 404 errors
 > although it work local machine not working at github pages (jekyll)
 
 ````
-Github pages are case sensitive. This status both file name are folder names valid
+Github pages are case sensitive. This status both file name and folder names valid
