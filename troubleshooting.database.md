@@ -21,4 +21,4 @@ go to screen menu
 > although it work local machine not working at github pages (jekyll)
 
 ````
-Github pages are case sensitive. This status both file name and folder names are valid
+Github pages are case sensitive. This status valid for both file name and folder names
