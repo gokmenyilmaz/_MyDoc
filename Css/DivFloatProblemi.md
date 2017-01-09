@@ -3,7 +3,7 @@ ana div yüksekliği kabul etmez
 
 bunun için
 ````
-.group:after {
+.xxx:after {
   content: "";
   display: table;
   clear: both;
