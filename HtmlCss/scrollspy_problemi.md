@@ -87,7 +87,7 @@ document ready kullanarak sorun çözülüyor...
         });
 
         $(function() {
-            $(window).on("load resize", function() {
+            $(window).on("resize", function() {
                 $(".fill-screen").css("height", window.innerHeight);
             })
 
