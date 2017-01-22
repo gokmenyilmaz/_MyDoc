@@ -12,6 +12,17 @@ içindeki load çalışmıyor. İlk değerler atanmadığı için yükseklikler
 0 kalıyor ve otomatik son menuye geciyor.
 
 document ready kullanarak sorun çözülüyor...
+alttaki eşiti 
+````
+ $(function() {
+      $(".fill-screen").css("height", window.innerHeight);
+
+       $(window).on("resize", function() {
+          $(".fill-screen").css("height", window.innerHeight);
+      })
+   })
+````
+
 
 
 ````
