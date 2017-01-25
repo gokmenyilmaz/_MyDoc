@@ -7,5 +7,5 @@ Spesifik branch
 ````
 git checkout master
 ````
-online github subfolder download
+###online github subfolder download
 http://kinolien.github.io/gitzip/
