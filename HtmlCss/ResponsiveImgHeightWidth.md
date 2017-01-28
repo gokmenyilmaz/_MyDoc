@@ -31,3 +31,11 @@
 </html>
 
 ````
+
+Section1 div i için eğer max-height yerine height verilirse dikey telefonu tam olarak kaplar boş kısımlar oluşur.
+O yüzden max-height verilmek zorunda.
+
+İmage : width %100 verildiğinde yatayda tam olarak kaplar dikeydede ekrana sığmaz 
+o yüzden parent div overflow-y hiddeen verilmek zorunda
+
+Image ekrana oranı bozularak yerleştirmek istenirse width ve height değerleri vermek yeterli
