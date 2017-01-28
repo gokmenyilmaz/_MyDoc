@@ -36,6 +36,9 @@ Section1 div i için eğer max-height yerine height verilirse dikey telefonu tam
 O yüzden max-height verilmek zorunda.
 
 İmage : width %100 verildiğinde yatayda tam olarak kaplar dikeydede ekrana sığmaz 
-o yüzden parent div overflow-y hiddeen verilmek zorunda
+o yüzden parent div overflow-y hiddeen verilmek zorunda (bir nevi crop)
 
 Image ekrana oranı bozularak yerleştirmek istenirse width ve height değerleri vermek yeterli
+
+Image max-width veya max-height verildiğinde image kendi büyüklüğünü asla geçemez. Orjinal halini korur.
+
