@@ -1,3 +1,25 @@
+bu da çalışıyor
+````
+ <style>
+        html,body{height:100%;margin:0;padding:0}
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+       
+
+        .carousel-inner{
+            height:100vh;
+            overflow: hidden;
+        }
+
+    </style>
+
+````
+
+
 ````
 <!DOCTYPE html>
 <html>
