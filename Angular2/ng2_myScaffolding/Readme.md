@@ -66,6 +66,11 @@ outDir ts dosyaları build edileceği klasör
 
 ````
 
-app: uygulamanın başlayacağı klasör (js dosyaları için)
-main: 'main' uygulamanın başlayacağı js dosyası
-'npm:' yol için alias (takma isim/değişken)
+###app: uygulamanın başlayacağı klasör (js dosyaları için)
+###main: 'main' uygulamanın başlayacağı js dosyası
+###'npm:' yol için alias (takma isim/değişken)
+
+#Dist Folder
+Uygulamanın çalışma klasörü
+yanına index.html ve systemjs.config.js dosyası konularak
+herhangi bir web serverda çalışabilir.
