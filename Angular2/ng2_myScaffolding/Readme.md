@@ -74,3 +74,14 @@ outDir ts dosyaları build edileceği klasör
 Uygulamanın çalışma klasörü
 yanına index.html ve systemjs.config.js dosyası konularak
 herhangi bir web serverda çalışabilir.
+
+# VsCode da dosya gizleme    
+js dosyalarını gizleme
+settings.json dosyasında override yapılarak
+````
+"files.exclude": {
+          "**/*.js": { "when": "$(basename).ts"},
+        "**/*.js.map": true
+    
+    }
+````
