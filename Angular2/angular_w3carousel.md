@@ -1,3 +1,4 @@
+#W3.css carousel yaklaşımı image veya başka element komple slide
 ````
 import { Component,ViewChild,Input,OnInit,ElementRef,AfterViewInit } from '@angular/core';
 import { FormsModule }   from '@angular/forms';
