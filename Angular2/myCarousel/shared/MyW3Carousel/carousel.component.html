@@ -1,0 +1,24 @@
+<div class="w3-row">
+    <div class="w3-col s12 w3-display-container" style="max-height: 100vh;overflow-y: hidden">
+        
+        <!--<ng-content select="[info]"></ng-content>-->
+        <ng-content select="[body]"></ng-content>
+     
+        <div *ngIf("sadeceMetin!=true")
+        {
+            <img *ngFor="let item of slideItems" class="mySlides" [src]="item.src" 
+            style="width: 100%;height: auto" [style.display]="item.sitil">
+        }
+
+        <div *ngIf("sadeceMetin==true")>
+            <span>{{item.</span>
+        </div>
+
+      
+            
+        <a class="w3-btn-floating w3-display-left" (click)="plusDivs(-1)">&#10094;</a>
+        <a class="w3-btn-floating w3-display-right" (click)="plusDivs(1)">&#10095;</a>
+
+      
+    </div>
+</div>
