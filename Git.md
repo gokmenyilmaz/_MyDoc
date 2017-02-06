@@ -1,5 +1,5 @@
 …or create a new repository on the command line
-
+````
 echo "# xxx" >> README.md
 git init
 git add README.md
@@ -11,7 +11,7 @@ git push -u origin master
 git remote add origin https://github.com/gokmenyilmaz/xxx.git
 git push -u origin master
 
-
+````
 
 
 spesifik commit cağirma
