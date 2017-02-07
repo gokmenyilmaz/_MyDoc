@@ -56,6 +56,6 @@
 ##Mümkün olduğunca doktorların eline düşmemek
 
 ##Tıbbın çok geliştiği söylenmesine rağmen basit basit hastalıkların tedavisinin olmaması
-
+##Futbolun saçmalık olması
 
 
