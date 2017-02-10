@@ -1,3 +1,9 @@
+push etmeden once yarı yap
+````
+git config user.name "gokmen.yilmaz"
+git config user.email "gokmen1977@gmail.com"
+````
+
 …or create a new repository on the command line
 ````
 echo "# xxx" >> README.md
