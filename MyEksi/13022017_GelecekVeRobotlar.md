@@ -1,3 +1,4 @@
+````
 insan--->iş
 insan+alet----->iş
 
@@ -10,3 +11,4 @@ patron----->(yapayzeka + robot)
 
 (yapayzeka + robot)--->(yapayzeka+robot)
 
+````
