@@ -1,0 +1,5 @@
+Bir nesne tanımlı fakat değerler atanmamışsa 
+
+elvis operator kullanılır
+
+yada default değerlerden geçici olarak nesne tanımlanır.
