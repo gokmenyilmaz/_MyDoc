@@ -4,3 +4,4 @@
   - template parameter
   
 # css encapsulation
+- .well[param]{color:yellow}
