@@ -30,6 +30,7 @@ docker rmi $(docker images -q)
 
 # Bash erişim
 * PS C:\Users\Gokmen1977> docker exec -i -t  f9021a6b89e1  /bin/bash
+* linux version : cat /etc/issue
 
 
 
