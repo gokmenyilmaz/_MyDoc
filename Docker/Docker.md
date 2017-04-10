@@ -22,10 +22,13 @@ Docker imajını silmek için;
 docker rmi [İMAJ_ADI]
 
 Tüm Docker Container’larını silmek (Linux, Mac OS)
-docker rm $(docker ps -a -q)
+* docker rm $(docker ps -a -q)
+* docker rm -f $(docker ps -a -q)
 
 Tüm Docker imajlarını silmek (Linux, Mac OS)
 docker rmi $(docker images -q)
+
+
 
 # Sql Server Linux 
 image çekmek için
