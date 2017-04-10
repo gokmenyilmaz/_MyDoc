@@ -5,7 +5,7 @@ https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker
 
 
 http://www.enterprisecoding.com/post/yeni-baslayanlar-icin-docker
-###Docker Komutları###
+# Docker Komutları#
 Çalışan Container’ları listelemek için
 
 docker ps
