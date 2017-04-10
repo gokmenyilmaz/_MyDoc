@@ -39,6 +39,8 @@ docker pull microsoft/mssql-server-linux
 
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d microsoft/mssql-server-linux
 
+varsayılan yol : root@f9021a6b89e1:/var/opt/mssql/data#
+
 çalışmazsa log kayıtlarından niye çalışmadığına bak
 
 linqpad kullan erişmek için
