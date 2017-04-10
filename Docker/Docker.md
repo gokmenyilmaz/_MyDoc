@@ -26,3 +26,11 @@ docker rm $(docker ps -a -q)
 
 Tüm Docker imajlarını silmek (Linux, Mac OS)
 docker rmi $(docker images -q)
+
+# Sql Server Linux 
+image çekmek için
+docker pull microsoft/mssql-server-linux
+
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d microsoft/mssql-server-linux
+çalışmazsa log kayıtlarından niye çalışmadığına bak
+linqpad kullan erişmek için
