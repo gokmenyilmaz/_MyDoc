@@ -21,7 +21,6 @@ docker rm [CONTAINER_ID]
 Docker imajını silmek için;
 docker rmi [İMAJ_ADI]
 
-Son olarak; elinizin altında bulunmasında fayda olan bir kaç Docker komutunu aşağıda bulabilirsiniz;
 Tüm Docker Container’larını silmek (Linux, Mac OS)
 docker rm $(docker ps -a -q)
 
