@@ -47,3 +47,8 @@ varsayılan yol : root@f9021a6b89e1:/var/opt/mssql/data#
 çalışmazsa log kayıtlarından niye çalışmadığına bak
 
 linqpad kullan erişmek için
+
+# Windows Container
+
+Nano Server oluşturarak işlemler yapılır
+https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10
