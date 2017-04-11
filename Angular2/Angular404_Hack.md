@@ -25,7 +25,7 @@
           var redirect = sessionStorage.redirect;
           delete sessionStorage.redirect;
           if (redirect && redirect != location.href) {
-            if(redirect.indexOf('bkmz')>1)
+            if(redirect.indexOf('bzkmz')>1)
             {
                redirect=redirect.replace('bzkmz','#anasayfa');
             }
