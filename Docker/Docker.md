@@ -49,6 +49,7 @@ varsayılan yol : root@f9021a6b89e1:/var/opt/mssql/data#
 linqpad kullan erişmek için
 
 # my sql
+user=root olacak
 docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 -d mysql
 
 # Windows Container
