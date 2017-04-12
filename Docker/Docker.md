@@ -52,6 +52,9 @@ linqpad kullan erişmek için
 user=root olacak
 docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 -d mysql
 
+# postgree sql
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+
 # Windows Container
 
 Nano Server oluşturarak işlemler yapılır
