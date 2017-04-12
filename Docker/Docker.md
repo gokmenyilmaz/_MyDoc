@@ -48,7 +48,12 @@ varsayılan yol : root@f9021a6b89e1:/var/opt/mssql/data#
 
 linqpad kullan erişmek için
 
+# my sql
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3366:3366 -d mysql
+
 # Windows Container
 
 Nano Server oluşturarak işlemler yapılır
 https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10
+
+
