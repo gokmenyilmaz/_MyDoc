@@ -17,7 +17,7 @@ go to screen menu
 
 ![delete menu item](https://raw.githubusercontent.com/gokmenyilmaz/_MyDoc/master/_images/tfsSil.png)
 ````
-###Github pages file not found 404 errors
+### Github pages file not found 404 errors
 > although it work local machine not working at github pages (jekyll)
 
 ````
