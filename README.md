@@ -8,5 +8,5 @@ Gist yerine :)
   * https://www.youtube.com/watch?v=25xGWtgfYYA
 * hammer.js
   * dokunma desteği (jquery gerektirmez)
-*Todo
+* Todo
   http://todomvc.com/
