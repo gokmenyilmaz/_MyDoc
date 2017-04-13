@@ -5,6 +5,6 @@ Gist yerine :)
 * css 3d mükemmel örnekler https://desandro.github.io/3dtransforms/
 * http://jekyllbootstrap.com/usage/jekyll-quick-start.html
 * çevik yazılım
- * https://www.youtube.com/watch?v=25xGWtgfYYA
+  * https://www.youtube.com/watch?v=25xGWtgfYYA
 * hammer.js
- * dokunma desteği (jquery gerektirmez)
+  * dokunma desteği (jquery gerektirmez)
