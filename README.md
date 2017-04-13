@@ -9,4 +9,4 @@ Gist yerine :)
 * hammer.js
   * dokunma desteği (jquery gerektirmez)
 * Todo
-  http://todomvc.com/
+  * http://todomvc.com/
