@@ -6,3 +6,5 @@ Gist yerine :)
 * http://jekyllbootstrap.com/usage/jekyll-quick-start.html
 * çevik yazılım
   * https://www.youtube.com/watch?v=25xGWtgfYYA
+* hammer.js
+ *dokunma desteği (jquery gerektirmez)
