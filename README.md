@@ -7,4 +7,4 @@ Gist yerine :)
 * çevik yazılım
   * https://www.youtube.com/watch?v=25xGWtgfYYA
 * hammer.js
- *dokunma desteği (jquery gerektirmez)
+  * dokunma desteği (jquery gerektirmez)
