@@ -59,9 +59,18 @@ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:54
 kullanıcı istemez
 docker run --name some-mongo -p 27017:27017 -d mongo
 
+# Oracle
+docker run -d -p 49160:22 -p 49161:1521 -e ORACLE_ALLOW_REMOTE=true wnameless/oracle-xe-11g
+
+hostname: localhost
+port: 49161
+sid: xe
+username: system
+password: oracle
+
+
 # Windows Container
 
 Nano Server oluşturarak işlemler yapılır
 https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10
-
 
