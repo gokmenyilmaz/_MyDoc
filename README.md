@@ -1,5 +1,11 @@
 # Genel Notlar
 
+push etmeden once yarı yap
+````
+git config user.name "gokmen.yilmaz"
+git config user.email "gokmen1977@gmail.com"
+````
+
 Gist yerine :)
 
 * css 3d mükemmel örnekler https://desandro.github.io/3dtransforms/
