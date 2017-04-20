@@ -31,6 +31,10 @@ Sitenin ana sayfasına
   </script>
   ````
   
+ # Dist folder istenmiyorsa
+ - Dist folder Gh-Pages e deploy edilir.
+ - git subtree ****
+  
  # Firebase Hosting
  - npm install -g firebase-tools
  - firebase init
