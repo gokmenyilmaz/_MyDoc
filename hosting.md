@@ -31,6 +31,15 @@ Sitenin ana sayfasına
   </script>
   ````
   
- 
+ # Firebase Hosting
+ - npm install -g firebase-tools
+ - firebase init
+    - firebase.json dosyası oluşur. Public kısmı dist olarak belirlenir.
+    - içine index.html konulur
+    - firebase deploy
+    
+   ## Dns
+    - Siteden > hosting > alan bağla dan dns ye txt dosyası eklenir.
+    - SSL otomatik gelir. 10 dk civarı beklenir. 
 
 
