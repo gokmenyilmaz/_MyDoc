@@ -46,4 +46,5 @@ Sitenin ana sayfasına
     - Siteden > hosting > alan bağla dan dns ye txt dosyası eklenir.
     - SSL otomatik gelir. 10 dk civarı beklenir. 
 
-
+# Heroku
+- Dynamik siteler için cloud hosting
