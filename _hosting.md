@@ -45,6 +45,11 @@ Sitenin ana sayfasına
    ## Dns
     - Siteden > hosting > alan bağla dan dns ye txt dosyası eklenir.
     - SSL otomatik gelir. 10 dk civarı beklenir. 
+    
+    ## Storage
+    - Web arayüzünden dosyalar teker teker ekleniyor
+      - Firebase google cloudun bir parçasıdır. Aşağıdaki tool çalışır
+        - gsutil cp -r src gs://reytingdb.appspot.com
 
 # Heroku
 - Dynamik siteler için cloud hosting
