@@ -50,7 +50,7 @@ Sitenin ana sayfasına
 - Dynamik siteler için cloud hosting
   - Node, Php , Ruby ...
   
-# cloudflare
+# Cloudflare
 - Bedava SSL
 - DDos saldırı engelleme
 - Proxy gibi çalışır
