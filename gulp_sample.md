@@ -1,5 +1,7 @@
 vscode da commandda task run diyip çalıştırıyon
 ````
+gulpfile.js dosyasına
+
 const gulp = require('gulp');
 const del = require('del');
 const typescript = require('gulp-typescript');
