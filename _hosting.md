@@ -49,3 +49,10 @@ Sitenin ana sayfasına
 # Heroku
 - Dynamik siteler için cloud hosting
   - Node, Php , Ruby ...
+  
+# cloudflare
+- Bedava SSL
+- DDos saldırı engelleme
+- Proxy gibi çalışır
+- Cache
+  
