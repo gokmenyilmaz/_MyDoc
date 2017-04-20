@@ -50,6 +50,7 @@ Sitenin ana sayfasına
     - Web arayüzünden dosyalar teker teker ekleniyor
       - Firebase google cloudun bir parçasıdır. Aşağıdaki tool çalışır
         - gsutil cp -r src gs://reytingdb.appspot.com
+        - https://cloud.google.com/storage/docs/gsutil/commands/cp
 
 # Heroku
 - Dynamik siteler için cloud hosting
