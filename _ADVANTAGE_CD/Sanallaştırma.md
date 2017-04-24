@@ -1,11 +1,14 @@
 # Sanallaştırma
+https://www.youtube.com/c/wikigain
 
+
+
+
+# VirtualBox-Sierra
 https://plus.google.com/+SysAdminsHowtos/posts/6e98eRghsw1
 
 https://www.youtube.com/watch?v=6BFEAtlT5xc&feature=youtu.be
 
-
-# VirtualBox-Sierra
 - Bios tan cpu virtualization aktif olmalı
 - 64 bit desteği için hyperv aktifse kaldırılmalı
 - Mac için efi kapatılmalı
