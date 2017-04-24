@@ -6,11 +6,14 @@ https://www.youtube.com/c/wikigain
 
 # VmWare ve Virtualbox - Sierra  (vmdk dosyası ile)
 
+## indirme linki
+  - https://drive.google.com/drive/folders/0B-PSijxodhB1OUZlLURhLUYwS2s
+## kurulum
 http://www.wikigain.com/install-macos-sierra-10-12-vmware/
 
 http://www.wikigain.com/install-macos-sierra-10-12-virtualbox/
 
-https://drive.google.com/drive/folders/0B-PSijxodhB1OUZlLURhLUYwS2s
+
 
 - Virtualbox bariz yavaş
 
