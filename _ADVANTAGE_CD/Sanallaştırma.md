@@ -1,5 +1,6 @@
 # Sanallaştırma
 https://www.youtube.com/watch?v=JUojcCvKtnY
+
 https://plus.google.com/+SysAdminsHowtos/posts/6e98eRghsw1
 
 # VirtualBox
