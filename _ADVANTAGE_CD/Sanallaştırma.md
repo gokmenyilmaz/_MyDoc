@@ -14,8 +14,8 @@ https://www.youtube.com/watch?v=6BFEAtlT5xc&feature=youtu.be
 - Mac için efi kapatılmalı
 - Usb lere destek için Extension paket yüklenmeli
 - Sanal makina adını "macOS Sierra" yap
-- Aşağıdaki işlemleri yap.VmTool un yaptığı işler komut satırıyla yapılıyor
-
+- Aşağıdaki işlemleri yap.VmTool un yaptığı işler komut satırıyla yapılıyor."macOS Sierra"=hedef sanal makina adı
+  - En alt satır çözünürlüğü full-hd yapar
 ````
 cd "C:\Program Files\Oracle\VirtualBox\"
   VBoxManage.exe modifyvm "macOS Sierra" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
