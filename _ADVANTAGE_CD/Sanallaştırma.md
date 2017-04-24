@@ -12,7 +12,7 @@ https://plus.google.com/+SysAdminsHowtos/posts/6e98eRghsw1
 - Usb lere destek için Extension paket yüklenmeli
 
 - Dmg dosyası seçilmeli
-- Aaşağıdak işlemleri yap
+- Aaşağıdaki işlemleri yap
 
 ````
 cd "C:\Program Files\Oracle\VirtualBox\"
