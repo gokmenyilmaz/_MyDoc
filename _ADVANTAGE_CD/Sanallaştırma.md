@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=6BFEAtlT5xc&feature=youtu.be
 - Mac için efi kapatılmalı
 - Usb lere destek için Extension paket yüklenmeli
 - Sanal makina adını "macOS Sierra" yap
-- Aaşağıdaki işlemleri yap
+- Aşağıdaki işlemleri yap.VmTool un yaptığı işler komut satırıyla yapılıyor
 
 ````
 cd "C:\Program Files\Oracle\VirtualBox\"
@@ -24,10 +24,9 @@ cd "C:\Program Files\Oracle\VirtualBox\"
   VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
   VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
   VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
+  VBoxManage setextradata "macOS Sierra" VBoxInternal2/EfiGopMode 5
 ````
 
-- Full hd ekran için
-  -  VBoxManage setextradata "macOS Sierra" VBoxInternal2/EfiGopMode 5
 - Kurulumda izlencelerden disk sil sonra kendi boş alan oluşturuyor
 
 
