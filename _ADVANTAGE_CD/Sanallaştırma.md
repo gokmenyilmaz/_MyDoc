@@ -10,8 +10,7 @@ https://plus.google.com/+SysAdminsHowtos/posts/6e98eRghsw1
 - 64 bit desteği için hyperv aktifse kaldırılmalı
 - Mac için efi kapatılmalı
 - Usb lere destek için Extension paket yüklenmeli
-
-- Dmg dosyası seçilmeli
+- Sanal makina adını "macOS Sierra" yap
 - Aaşağıdaki işlemleri yap
 
 ````
