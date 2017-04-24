@@ -22,9 +22,11 @@ cd "C:\Program Files\Oracle\VirtualBox\"
   VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
   VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
 ````
-- Kurulumda izlencelerden disk sil sonra kendi boş alan oluşturuyor
+
 - Full hd ekran için
   -  VBoxManage setextradata "macOS Sierra" VBoxInternal2/EfiGopMode 5
+- Kurulumda izlencelerden disk sil sonra kendi boş alan oluşturuyor
+
 
 # VmWare ve Virtualbox - Sierra
 http://www.wikigain.com/install-macos-sierra-10-12-vmware/
