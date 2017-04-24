@@ -5,6 +5,7 @@ https://www.youtube.com/c/wikigain
 - VmWare ve Virtualbox için hyperv aktifse kaldırılmalı
 
 # VmWare ve Virtualbox - Sierra  (vmdk dosyası ile)
+- Virtualbox bariz yavaş
 
 http://www.wikigain.com/install-macos-sierra-10-12-vmware/
 
