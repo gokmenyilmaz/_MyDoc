@@ -1,6 +1,7 @@
 # Sanallaştırma
 
 https://plus.google.com/+SysAdminsHowtos/posts/6e98eRghsw1
+
 https://www.youtube.com/watch?v=6BFEAtlT5xc&feature=youtu.be
 
 
