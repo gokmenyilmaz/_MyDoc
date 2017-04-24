@@ -5,7 +5,6 @@ https://www.youtube.com/c/wikigain
 - VmWare ve Virtualbox için hyperv aktifse kaldırılmalı
 
 # VmWare ve Virtualbox - Sierra  (vmdk dosyası ile)
-- Virtualbox bariz yavaş
 
 http://www.wikigain.com/install-macos-sierra-10-12-vmware/
 
@@ -13,30 +12,8 @@ http://www.wikigain.com/install-macos-sierra-10-12-virtualbox/
 
 https://drive.google.com/drive/folders/0B-PSijxodhB1OUZlLURhLUYwS2s
 
+- Virtualbox bariz yavaş
 
-# VirtualBox-Sierra (iso ile)
-https://plus.google.com/+SysAdminsHowtos/posts/6e98eRghsw1
-
-https://www.youtube.com/watch?v=6BFEAtlT5xc&feature=youtu.be
-
-- Mac için efi kapatılmalı
-- Usb lere destek için Extension paket yüklenmeli
-- Sanal makina adını "macOS Sierra" yap
-- Aşağıdaki işlemleri yap.VmTool un yaptığı işler komut satırıyla yapılıyor."macOS Sierra"=hedef sanal makina adı
-  - En alt satır çözünürlüğü 1280x1024 yapar. Full hd için 
-  https://superuser.com/questions/478901/change-macos-x-guest-screen-resolution-for-virtualbox
-````
-cd "C:\Program Files\Oracle\VirtualBox\"
-  VBoxManage.exe modifyvm "macOS Sierra" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
-  VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac11,3"
-  VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0"
-  VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
-  VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
-  VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
-  VBoxManage setextradata "macOS Sierra" VBoxInternal2/EfiGopMode 3
-````
-
-- Kurulumda izlencelerden disk sil sonra kendi boş alan oluşturuyor
 
 
 
