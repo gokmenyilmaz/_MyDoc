@@ -10,6 +10,7 @@ https://www.youtube.com/c/wikigain
   - https://drive.google.com/drive/folders/0B-PSijxodhB1OUZlLURhLUYwS2s
 ## kurulum
 http://www.wikigain.com/install-macos-sierra-10-12-vmware/
+- smc.version = "0" ekle (macOS 10.12.vmx dosyasına en üste) 
 
 http://www.wikigain.com/install-macos-sierra-10-12-virtualbox/
 
