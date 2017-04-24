@@ -25,4 +25,8 @@ cd "C:\Program Files\Oracle\VirtualBox\"
 - Kurulumda izlencelerden disk sil sonra kendi boş alan oluşturuyor
 
 # VmWare ve Virtualbox - Sierra
+http://www.wikigain.com/install-macos-sierra-10-12-vmware/
+
+http://www.wikigain.com/install-macos-sierra-10-12-virtualbox/
+
 https://drive.google.com/drive/folders/0B-PSijxodhB1OUZlLURhLUYwS2s
