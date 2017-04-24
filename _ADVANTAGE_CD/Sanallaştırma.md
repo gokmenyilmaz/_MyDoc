@@ -1,3 +1,6 @@
+# bootable mac on pc
+http://www.wikigain.com/create-macos-sierra-bootable-usb-installer-windows-10/
+
 # Sanallaştırma
 https://www.youtube.com/c/wikigain
 ## Ön koşullar
