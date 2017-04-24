@@ -23,3 +23,6 @@ cd "C:\Program Files\Oracle\VirtualBox\"
   VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
 ````
 - Kurulumda izlencelerden disk sil sonra kendi boş alan oluşturuyor
+
+# VmWare ve Virtualbox - Sierra
+https://drive.google.com/drive/folders/0B-PSijxodhB1OUZlLURhLUYwS2s
