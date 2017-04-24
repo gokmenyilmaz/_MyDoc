@@ -22,7 +22,8 @@ https://www.youtube.com/watch?v=6BFEAtlT5xc&feature=youtu.be
 - Usb lere destek için Extension paket yüklenmeli
 - Sanal makina adını "macOS Sierra" yap
 - Aşağıdaki işlemleri yap.VmTool un yaptığı işler komut satırıyla yapılıyor."macOS Sierra"=hedef sanal makina adı
-  - En alt satır çözünürlüğü full-hd yapar
+  - En alt satır çözünürlüğü 1440×900 yapar. Full hd için 
+  https://superuser.com/questions/478901/change-macos-x-guest-screen-resolution-for-virtualbox
 ````
 cd "C:\Program Files\Oracle\VirtualBox\"
   VBoxManage.exe modifyvm "macOS Sierra" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
@@ -31,7 +32,7 @@ cd "C:\Program Files\Oracle\VirtualBox\"
   VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple"
   VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
   VBoxManage setextradata "macOS Sierra" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
-  VBoxManage setextradata "macOS Sierra" VBoxInternal2/EfiGopMode 5
+  VBoxManage setextradata "macOS Sierra" VBoxInternal2/EfiGopMode 4
 ````
 
 - Kurulumda izlencelerden disk sil sonra kendi boş alan oluşturuyor
