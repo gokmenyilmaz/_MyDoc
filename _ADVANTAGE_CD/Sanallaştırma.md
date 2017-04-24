@@ -4,7 +4,7 @@ https://www.youtube.com/c/wikigain
 - Bios tan cpu virtualization aktif olmalı
 - VmWare ve Virtualbox için hyperv aktifse kaldırılmalı
 
-# VmWare ve Virtualbox - Sierra
+# VmWare ve Virtualbox - Sierra  (vmdk dosyası ile)
 
 http://www.wikigain.com/install-macos-sierra-10-12-vmware/
 
@@ -13,7 +13,7 @@ http://www.wikigain.com/install-macos-sierra-10-12-virtualbox/
 https://drive.google.com/drive/folders/0B-PSijxodhB1OUZlLURhLUYwS2s
 
 
-# VirtualBox-Sierra
+# VirtualBox-Sierra (iso ile)
 https://plus.google.com/+SysAdminsHowtos/posts/6e98eRghsw1
 
 https://www.youtube.com/watch?v=6BFEAtlT5xc&feature=youtu.be
