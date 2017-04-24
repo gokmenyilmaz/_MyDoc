@@ -1,4 +1,6 @@
 # Sanallaştırma
+https://www.youtube.com/watch?v=6BFEAtlT5xc&feature=youtu.be
+
 https://www.youtube.com/watch?v=JUojcCvKtnY
 
 https://plus.google.com/+SysAdminsHowtos/posts/6e98eRghsw1
