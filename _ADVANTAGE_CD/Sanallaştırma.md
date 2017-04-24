@@ -1,6 +1,8 @@
 # Sanallaştırma
 https://www.youtube.com/watch?v=JUojcCvKtnY
 
-- Virtual box için önce pasif edilmesi gerekir
+- Bios tan cpu virtualization aktif olmalı
+- Virtual box 64 bit desteği için hyperv aktifse kaldırılmalı
 - Mac için efi kapatılmalı
-- dmg dosyası seçilmeli
+
+- Dmg dosyası seçilmeli
