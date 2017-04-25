@@ -17,10 +17,10 @@ http://www.wikigain.com/install-macos-sierra-10-12-vmware/
 
 http://www.wikigain.com/install-macos-sierra-10-12-virtualbox/
 
-
-
 - Virtualbox bariz yavaş
 
+# Hackintosh
+- https://www.tonymacx86.com/threads/unibeast-install-macos-sierra-on-any-supported-intel-based-pc.200564/#download
 
 
 
