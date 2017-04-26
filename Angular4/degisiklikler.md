@@ -1,4 +1,4 @@
-ng new ng-gok -ng4
+angular cli ile >   ng new ng-gok -ng4
 
 http://angularjs.blogspot.com.tr/2017/03/angular-400-now-available.html
 
