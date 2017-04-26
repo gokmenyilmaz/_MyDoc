@@ -1,8 +1,6 @@
 folder içinde
-
-ng -v
-
-angular cli ile >   ng new ng-gok -ng4
+angular cli ile >   ng new ng-gok
+varsayılan ng4 projesi oluşturur
 
 
 https://www.youtube.com/watch?v=m5k3z94rixA
