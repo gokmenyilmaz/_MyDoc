@@ -11,6 +11,9 @@ http://angularjs.blogspot.com.tr/2017/03/angular-400-now-available.html
 
 https://www.youtube.com/watch?v=r-a2f0T8CG0
 
+https://coursetro.com/posts/code/57/Angular-4-Templating-Basics
+
+
 
 # ng-template
 ````
