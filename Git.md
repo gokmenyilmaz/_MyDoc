@@ -5,6 +5,7 @@ git config user.email "gokmen1977@gmail.com"
 ````
 
 angular-cli-ghpages  için
+ngh --branch=gh-pages çalışıyor
 ````
 git config --global user.name "gokmen.yilmaz"
 git config --global user.email "gokmen1977@gmail.com"
