@@ -4,6 +4,13 @@ git config user.name "gokmen.yilmaz"
 git config user.email "gokmen1977@gmail.com"
 ````
 
+angular-cli-ghpages  için
+````
+git config -global user.name "gokmen.yilmaz"
+git config -global user.email "gokmen1977@gmail.com"
+````
+
+
 …or create a new repository on the command line
 ````
 echo "# xxx" >> README.md
