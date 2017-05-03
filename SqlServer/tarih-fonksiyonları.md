@@ -1,3 +1,7 @@
+### Convert
+https://www.w3schools.com/sql/func_convert.asp
+
+
 ### DATEFORMAT 
 ````
 -- Set date format to day/month/year.  
