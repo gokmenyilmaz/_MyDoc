@@ -6,9 +6,21 @@ select * from (
 	SELECT '2019-09-17' as tar) c
 where c.tar> DATEFROMPARTS(2016,12,31) 
 ````
+````
+SELECT CONVERT(INT, CAST ('2013-08-05 09:23:30' as DATETIME))
+````
 
-Conversion failed when converting date and/or time from character string.
+
+## Conversion failed when converting date and/or time from character string.
 hatası
+````
+select cast(DenetlemeTar as datetime) from 
+ FORM_YATAYDATA
+WHERE   FormAdi LIKE '%müeyy%'
+and cast(DenetlemeTar as datetime) between DATEFROMPARTS(2016,1,1) and  DATEFROMPARTS(2017,12,31)
+````
+
+
 ````
 
 select top 1 DenetlemeTar from 
@@ -16,5 +28,6 @@ select top 1 DenetlemeTar from
 WHERE   FormAdi LIKE '%müeyy%'
 and cast(convert(varchar(200),DenetlemeTar) as date) =DATEFROMPARTS(2013,9,17)
 ````
+## çözüm
 varchar(200) varchar(max) olursa düzelir.
 
