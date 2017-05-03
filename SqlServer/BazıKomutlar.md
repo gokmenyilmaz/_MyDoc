@@ -11,8 +11,7 @@ SELECT CONVERT(INT, CAST ('2013-08-05 09:23:30' as DATETIME))
 ````
 
 
-## Conversion failed when converting date and/or time from character string.
-hatası
+### Conversion failed when converting date and/or time from character string.
 ````
 select cast(DenetlemeTar as datetime) from 
  FORM_YATAYDATA
