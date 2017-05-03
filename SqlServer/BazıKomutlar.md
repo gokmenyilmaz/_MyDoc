@@ -27,6 +27,6 @@ select top 1 DenetlemeTar from
 WHERE   FormAdi LIKE '%müeyy%'
 and cast(convert(varchar(200),DenetlemeTar) as date) =DATEFROMPARTS(2013,9,17)
 ````
-## çözüm
+### çözüm
 varchar(200) varchar(max) olursa düzelir.
 
