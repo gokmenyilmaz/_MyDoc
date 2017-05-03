@@ -1,3 +1,7 @@
+### cast(x as date) için varsayılan format
+````
+set dateformat dmy
+````
 
 ````
 SELECT DATEFROMPARTS ( 2010, 12, 31 ) AS Tarih;  
