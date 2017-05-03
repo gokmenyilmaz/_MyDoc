@@ -46,3 +46,11 @@ and cast(convert(varchar(200),DenetlemeTar) as date) =DATEFROMPARTS(2013,9,17)
 ### çözüm
 varchar(200) varchar(max) olursa düzelir.
 
+# Örnek sorgular
+````
+SELECT     Id,DenetlemeTar,convert(Int,CONVERT(datetime, CONVERT(varchar(MAX), DenetlemeTar), 105)) as u ,
+convert(Int,cast(DATEFROMPARTS(2013, 9, 17) as datetime) )
+FROM         dbo.FORM_YATAYDATA
+WHERE     (FormAdi LIKE '%müeyy%')
+order by Id
+````
