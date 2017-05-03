@@ -1,4 +1,4 @@
-### cast(x as date) için varsayılan format
+### DATEFORMAT 
 ````
 -- Set date format to day/month/year.  
 SET DATEFORMAT dmy;  
