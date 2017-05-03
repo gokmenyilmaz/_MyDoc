@@ -2,15 +2,12 @@
 ````
 set dateformat dmy
 ````
-
+### tarih elde etme
 ````
 SELECT DATEFROMPARTS ( 2010, 12, 31 ) AS Tarih;  
 ````
-````
-select * from (
-	SELECT '2019-09-17' as tar) c
-where c.tar> DATEFROMPARTS(2016,12,31) 
-````
+
+### date to int
 ````
 SELECT CONVERT(INT, CAST ('2013-08-05 09:23:30' as DATETIME))
 ````
