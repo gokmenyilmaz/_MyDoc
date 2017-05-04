@@ -1,4 +1,4 @@
-#  Pazaryeri 
+#  Pazaryerleri
 - Eğitim (udemy)
 - Sağlık
 - Alışveriş (n11)
