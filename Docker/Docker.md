@@ -28,6 +28,11 @@ Tüm Docker Container’larını silmek (Linux, Mac OS)
 Tüm Docker imajlarını silmek (Linux, Mac OS)
 docker rmi $(docker images -q)
 
+# Docker dan makinaya
+````
+docker cp gok-mongo:/Mongox.json d:\mongo1.json
+````
+
 # Bash erişim
 * PS C:\Users\Gokmen1977> docker exec -i -t  f9021a6b89e1  /bin/bash
 * linux version : cat /etc/issue
