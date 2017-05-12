@@ -9,3 +9,9 @@
 
 Daha sonra cepten hotpoint adresine bağlanılır.
 SideSync çalışır ....
+
+## windows komutlarıyla
+````
+netsh wlan set hostednetwork mode=allow ssid=SelcukRating key=12345678
+netsh wlan start hostednetwork
+````
