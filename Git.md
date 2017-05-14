@@ -42,6 +42,7 @@ http://kinolien.github.io/gitzip/
 
 # Substree
 ````
+git add ./bin && git commit -m "Initial dist subtree commit"
 git subtree push --prefix "bin/Debug/netcoreapp2.0/publish" origin gh-pages
 ````
 
