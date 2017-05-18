@@ -6,7 +6,7 @@ if(age>21){
 ````
 
 ````
-int legalDrinkingAge=21;
+const int legalDrinkingAge=21;
 if(age>legalDrinkingAge){
   drink();
 }
