@@ -1,3 +1,3 @@
 
 - Rick Strahl 
-  -- https://weblog.west-wind.com/
+  - https://weblog.west-wind.com/
