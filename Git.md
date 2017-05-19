@@ -1,3 +1,8 @@
+git clear
+````
+rd .git /S/Q # windows
+````
+
 push etmeden once yarı yap
 ````
 git config user.name "gokmen.yilmaz"
