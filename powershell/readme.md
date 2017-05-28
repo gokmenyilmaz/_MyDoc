@@ -1,0 +1,2 @@
+# Environment degerler
+- $Env:Path
