@@ -16,3 +16,4 @@ ef hesapla(a,b):
 - C:\Users\Gokmen1977\AppData\Local\Programs\Python\Python36-32\Scripts environmente ekle
 - pip install django  // örnek kurulum
   - django-admin startproject denetim
+  - http://127.0.0.1:8000/ 
