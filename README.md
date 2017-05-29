@@ -5,9 +5,10 @@ push etmeden once yarı yap
 git config user.name "gokmen.yilmaz"
 git config user.email "gokmen1977@gmail.com"
 ````
-
+````
 git config --global user.name "gokmen.yilmaz"
 git config --global user.email "gokmen1977@gmail.com"
+````
 
 Gist yerine :)
 
