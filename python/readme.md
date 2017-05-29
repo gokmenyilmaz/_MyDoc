@@ -1,6 +1,6 @@
 # Dil Yapısı
 - Betik bir dildir
-- Boşluklar { yerine geçeri
+- Boşluklar "{" yerine geçer
 - fonksiyonlar 
 ````
 ef hesapla(a,b): 
