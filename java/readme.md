@@ -24,3 +24,4 @@ javac HelloWorld.java
 java HelloWorld
 
 ````
+javac : C:\Program Files\Java\jdk1.8.0_131\bin environment tanımlamayı unutma
