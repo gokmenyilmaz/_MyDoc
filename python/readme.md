@@ -13,3 +13,5 @@ ef hesapla(a,b):
 # Paket Yönetim
 - https://bootstrap.pypa.io/get-pip.py  dosyasını indir
 - python get-pip-py   kurulumu yap
+- C:\Users\Gokmen1977\AppData\Local\Programs\Python\Python36-32\Scripts environmente ekle
+- pip install django  // örnek kurulum
