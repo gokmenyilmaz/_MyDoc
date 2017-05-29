@@ -15,3 +15,4 @@ ef hesapla(a,b):
 - python get-pip-py   kurulumu yap
 - C:\Users\Gokmen1977\AppData\Local\Programs\Python\Python36-32\Scripts environmente ekle
 - pip install django  // örnek kurulum
+  - django-admin startproject denetim
