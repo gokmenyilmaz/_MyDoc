@@ -1,4 +1,4 @@
-.gitignore
+.gitignore  
 .gitattributes
 
 dosyaları hidden olarak ayarlanır.
