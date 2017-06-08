@@ -4,31 +4,31 @@
 
 - Git Dosya Ayarları
 - .gitignore  
-````
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+    ````
+    # User-specific files
+    *.suo
+    *.user
+    *.userosscache
+    *.sln.docstates
 
-# User-specific files (MonoDevelop/Xamarin Studio)
-*.userprefs
+    # User-specific files (MonoDevelop/Xamarin Studio)
+    *.userprefs
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+    # Build results
+    [Dd]ebug/
+    [Dd]ebugPublic/
+    [Rr]elease/
+    [Rr]eleases/
+    x64/
+    x86/
+    bld/
+    [Bb]in/
+    [Oo]bj/
+    [Ll]og/
 
-# Visual Studio 2015 cache/options directory
-.vs/
-````
+    # Visual Studio 2015 cache/options directory
+    .vs/
+    ````
 - gitattributes
   ````
   *.manifest binary
