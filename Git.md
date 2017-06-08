@@ -3,6 +3,12 @@ git clear
 rd .git /S/Q # windows
 ````
 
+````
+git rm -r --cached .
+git add .
+git commit -m "fixed untracked files"
+````
+
 push etmeden once yarı yap
 ````
 git config user.name "gokmen.yilmaz"
@@ -50,6 +56,4 @@ http://kinolien.github.io/gitzip/
 git add ./bin && git commit -m "subtree commit"
 git subtree push --prefix "bin/Debug/netcoreapp2.0/publish" origin gh-pages
 ````
-git rm -r --cached .
-git add .
-git commit -am 'git cache cleared'
+
