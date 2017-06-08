@@ -1,6 +1,10 @@
 # Deploy Aşamaları
 - Wpf varsayılan olarak Office2016-white theme kullanır.
     - Dll eklenmezse direk kapanarak hata verir
+    
+- Clickonce hash hatası verirse 
+    - Application property/publish/application files> seçilir  
+    Gelen tablodan hash sutunundan sorunlu olan file çıkarılır
 
 - Git Dosya Ayarları
 - .gitignore  
