@@ -1,3 +1,7 @@
+https://docs.microsoft.com/en-us/ef/core/querying/basic
+https://app.pluralsight.com/library/courses/entity-framework-core-getting-started/table-of-contents
+
+
 # Genel Komutlar
 - install-package microsoft.entityframeworkcore.tools  // gerekli
 - install-package Microsoft.EntityFrameworkCore.SqlServer.Design
