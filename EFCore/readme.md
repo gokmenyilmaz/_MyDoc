@@ -3,7 +3,7 @@ https://app.pluralsight.com/library/courses/entity-framework-core-getting-starte
 
 
 
-# core2
+# core2  12.06.2016 itibariyle framework 4.6 ile uyumlu
 update-package Microsoft.EntityFrameworkCore.SqlServer -Pre -Version 2.0.0-preview1-final  
 update-package Microsoft.EntityFrameworkCore.Tools -Pre -Version 2.0.0-preview1-final  
 
