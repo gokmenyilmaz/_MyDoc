@@ -1,3 +1,5 @@
+# sql server kayıt değişikliklerini yakalar
+
 http://thedatafarm.com/ado-net-2/its-working-sqldependency-heres-how-i-did-it/  
 yukardaki koşulları sağlamalı
 
