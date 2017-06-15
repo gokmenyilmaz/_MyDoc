@@ -41,8 +41,11 @@ namespace WindowsFormsApp1
 
         void OnDependencyChange(object sender, SqlNotificationEventArgs e)
         {
-           
-            // Handle the event (for example, invalidate this cache entry).
+            SqlDependency dep = sender as SqlDependency;
+
+            MessageBox.Show("islem");
+            dep.OnChange -= new OnChangeEventHandler(OnDependencyChange);
+            SomeMethod();
         }
 
         void SomeMethod()
@@ -60,15 +63,18 @@ namespace WindowsFormsApp1
                 dependency.OnChange += new OnChangeEventHandler(OnDependencyChange);
 
                 // Execute the command.
-                SqlDataReader dr = cmd.ExecuteReader();
+                using (SqlDataReader dr = cmd.ExecuteReader())
                 {
-                    while (dr.Read())
                     {
-                        Console.WriteLine("Name = " + dr[1].ToString());
+                        while (dr.Read())
+                        {
+                            Console.WriteLine("Name = " + dr[1].ToString());
+                        }
                     }
                 }
             }
         }
     }
 }
+
 ````
