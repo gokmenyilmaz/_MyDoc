@@ -1,0 +1,71 @@
+http://thedatafarm.com/ado-net-2/its-working-sqldependency-heres-how-i-did-it/
+yukardaki koşulları sağlamalı
+
+````
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp1
+{
+    public partial class Form1 : Form
+    {
+        private string GetConnectionString()
+        {
+            return @"server=.;database=Panda2017;user id=sa;password=1";
+        }
+
+        SqlConnection connection;
+
+        public Form1()
+        {
+            InitializeComponent();
+
+            connection = new SqlConnection(GetConnectionString());
+            connection.Open();
+
+          
+            SomeMethod();
+         
+        }
+
+        void OnDependencyChange(object sender, SqlNotificationEventArgs e)
+        {
+           
+            // Handle the event (for example, invalidate this cache entry).
+        }
+
+        void SomeMethod()
+        {
+            // Assume connection is an open SqlConnection.
+            // Create a new SqlCommand object.
+            using (SqlCommand cmd =
+                new SqlCommand("SELECT  [Id] ,[Alan],[DosyaAdi],[Gonderen],[MesajIcerik],[MesajTarihi],[Resim],[DokumanAdi] FROM dbo.Mesajlar where Gonderen='2' ", connection))
+            {
+                // Create a dependency and associate it with the SqlCommand.
+                SqlDependency dependency = new SqlDependency(cmd);
+
+                SqlDependency.Start(GetConnectionString());
+
+                dependency.OnChange += new OnChangeEventHandler(OnDependencyChange);
+
+                // Execute the command.
+                SqlDataReader dr = cmd.ExecuteReader();
+                {
+                    while (dr.Read())
+                    {
+                        Console.WriteLine("Name = " + dr[1].ToString());
+                    }
+                }
+            }
+        }
+    }
+}
+````
