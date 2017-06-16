@@ -7,6 +7,8 @@ https://app.pluralsight.com/library/courses/entity-framework-core-getting-starte
 update-package Microsoft.EntityFrameworkCore.SqlServer -Pre -Version 2.0.0-preview1-final  
 update-package Microsoft.EntityFrameworkCore.Tools -Pre -Version 2.0.0-preview1-final  
 
+install-package Microsoft.EntityFrameworkCore.SqlServer.Design -Pre -Version 2.0.0-preview1-final
+
 sıfırdan yuklemelerde install-package yaz
 
 
