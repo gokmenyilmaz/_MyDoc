@@ -1,3 +1,6 @@
+# To Do
+http://enterprisecraftsmanship.com/2015/06/22/encapsulation-revisited/
+
 # Genel Notlar
 
 push etmeden once yarı yap
