@@ -1,6 +1,9 @@
 https://docs.microsoft.com/en-us/ef/core/querying/basic  
 https://app.pluralsight.com/library/courses/entity-framework-core-getting-started/table-of-contents  
 
+# Reverse Enginer from existing database
+https://docs.microsoft.com/en-us/ef/core/get-started/full-dotnet/existing-db  
+Scaffold-DbContext "Server=(localdb)\mssqllocaldb;Database=Blogging;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer  
 
 
 # core2  12.06.2016 itibariyle framework 4.6 ile uyumlu
