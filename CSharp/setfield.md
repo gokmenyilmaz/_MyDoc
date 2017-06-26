@@ -19,3 +19,23 @@
             return true;
         }
 ````
+
+
+````
+public bool IsProcessed
+        {
+            get { return _IsProcessed; }
+            set { SetProperty(ref _IsProcessed, value); }
+        }
+
+
+        protected bool SetProperty<T>(ref T storage, T value, [CallerMemberName] string propertyName = "") {
+            if ((storage == null && value == null) ||
+                (storage != null && storage.Equals(value)))
+                return false;
+
+            storage = value;
+            NotifyPropertyChanged(propertyName);
+            return true;
+        }
+        ````
