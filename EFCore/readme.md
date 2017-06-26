@@ -24,7 +24,9 @@ sıfırdan yuklemelerde install-package yaz
 
 - Add-Migration Kullanici-Stok
 - Update-Database
-- Scaffold-DbContext -connection "server=.;database=PANDA2017T;trusted_connection=true" -provider microsoft.Entityframeworkcore.sqlserver -OutputDir "./Panda-Model"
+- Scaffold-DbContext -connection "server=.;database=PANDA2017T;trusted_connection=true" -provider microsoft.Entityframeworkcore.sqlserver -OutputDir "./Panda-Model"  (fluent olarak)
+
+Scaffold-DbContext -connection "server=.;database=PANDA2017;trusted_connection=true" -provider microsoft.Entityframeworkcore.sqlserver -OutputDir "./Panda-Model" -d (data annotaion olarak)
 
 
 - Update-Package -reinstall  // package.configden yukler
