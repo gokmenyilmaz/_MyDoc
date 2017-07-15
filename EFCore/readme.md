@@ -7,17 +7,17 @@ Scaffold-DbContext "Server=.;Database=domaindb;Trusted_Connection=True;" Microso
 
 
 # core2  12.06.2016 itibariyle framework 4.6 ile uyumlu
-install-package Microsoft.EntityFrameworkCore.SqlServer -Pre -Version 2.0.0-preview1-final  
-install-package Microsoft.EntityFrameworkCore.Tools -Pre -Version 2.0.0-preview1-final  
+install-package Microsoft.EntityFrameworkCore.SqlServer -Pre -Version 2.0.0-preview2-final  
+install-package Microsoft.EntityFrameworkCore.Tools -Pre -Version 2.0.0-preview2-final  
 
-install-package Microsoft.EntityFrameworkCore.SqlServer.Design -Pre -Version 2.0.0-preview1-final
-
-sıfırdan yuklemelerde install-package yaz
-
-
-# Genel Komutlar
-- install-package microsoft.entityframeworkcore.tools  // gerekli
-- install-package Microsoft.EntityFrameworkCore.SqlServer.Design
+csproj içinde 
+````
+<ItemGroup>
+  <DotNetCliToolReference
+      Include="Microsoft.EntityFrameworkCore.Tools.DotNet"
+      Version="2.0.0-preview2-final" />
+</ItemGroup>
+````
 
 ## Package Manager Console (powershell kullanır)
 - get-help EntityFrameworkCore   // komutlar hakkında bilgi
