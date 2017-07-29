@@ -1,3 +1,5 @@
+4.7 publish edince hata veriyor dikkattt
+
 https://docs.microsoft.com/en-us/ef/core/querying/basic  
 https://app.pluralsight.com/library/courses/entity-framework-core-getting-started/table-of-contents  
 
