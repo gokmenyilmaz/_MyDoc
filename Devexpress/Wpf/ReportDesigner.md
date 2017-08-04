@@ -22,7 +22,9 @@
             QueryParameter p = new QueryParameter("ParameterId", typeof(int), 1234);
             ds.Queries[0].Parameters.Add(p);
 
-           
+             ds.RebuildResultSchema();
+
+            report.ActiveDocument.ViewKind = ReportDesignerDocumentViewKind.Preview;
 
         }
 ````
