@@ -3,3 +3,6 @@
 
 ## Remove designer button
 https://www.devexpress.com/Support/Center/Example/Details/T281615/wpf-end-user-report-designer-how-to-customize-the-ribbon-toolbar
+
+## designer
+https://www.devexpress.com/Support/Center/Example/Details/E4766/how-to-customize-the-wpf-report-designer
