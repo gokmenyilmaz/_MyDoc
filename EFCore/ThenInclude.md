@@ -7,3 +7,5 @@ StokHareket = dc.TblPndStokHarekets
                 .FirstOrDefault(c => c.Id == 1111);
                 
  ````
+ 
+ 
