@@ -22,14 +22,34 @@ namespace ConsoleApp1
             });
 
 
+            ArabalarContext dc = new ArabalarContext();
 
-            var araba = new Araba();
-            araba.ArabaNo = 45;
-            araba.KM = "122";
-            araba.Model = "x3";
-            araba.Marka = "bmw";
-            araba.Vites = true;
-            araba.KullanimSekli = new Kullanim { Ticari = "evet", Uzunluk = "kısa" };
+            //var araba = new Araba();
+
+            //araba.KM = "122";
+            //araba.Model = "x3";
+            //araba.Marka = "bmw";
+            //araba.Vites = true;
+            //araba.KullanimSekli = new Kullanim { Ticari = "evet", Uzunluk = "kısa" };
+
+
+            //dc.Arabas.Add(araba);
+            //dc.SaveChanges();
+
+            var araba = dc.Arabas.Include(c => c.KullanimSekli).FirstOrDefault();
+
+            var _araba = Mapper.Map<Araba>(araba);
+
+            _araba.Marka = "xxxhonda";
+            _araba.KullanimSekli.Ticari = "xxxxticccccc";
+
+
+
+            Mapper.Map<Araba, Araba>(_araba, araba);
+
+            dc.SaveChanges();
+
+
 
             /* shallow copy-------------
                 Nesneye yeni refereans atanır. Value type lar kopyalanır.
@@ -81,6 +101,11 @@ namespace ConsoleApp1
         public bool Vites { get; set; }
 
         public Kullanim KullanimSekli { get; set; }
+
+        public Araba()
+        {
+            KullanimSekli = new Kullanim();
+        }
 
         public object Clone()
         {
