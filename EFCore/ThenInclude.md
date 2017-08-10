@@ -1,4 +1,7 @@
 intelisense sorunlu dikkat!!1
+inner join uygular 
+ana kayıt key null ise left join
+
 
 ````
 StokHareket = dc.TblPndStokHarekets
