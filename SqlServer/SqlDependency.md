@@ -1,16 +1,17 @@
 # sql server kayıt değişikliklerini yakalar
 
 
-alter database pandapdb set enable_broker with rollback immediate;
-Select databasepropertyex('pandapdb', 'IsBrokerEnabled')
+alter database pandapdb set enable_broker with rollback immediate;  
+Select databasepropertyex('pandapdb', 'IsBrokerEnabled')  
 
+````
 EXEC sp_configure 'show advanced options', '1' go
 RECONFIGURE
 go
 EXEC sp_configure 'clr enabled', 1
 go
 RECONFIGURE
-
+````
 
 
 http://thedatafarm.com/ado-net-2/its-working-sqldependency-heres-how-i-did-it/  
