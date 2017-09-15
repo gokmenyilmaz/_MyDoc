@@ -34,6 +34,7 @@
     .vs/
     ````
 - gitattributes
+https://gokmenyilmaz.github.io/Pandap2017/Pandap.application hatası alırsın yoksa
   ````
   *.manifest binary
   *.application binary
