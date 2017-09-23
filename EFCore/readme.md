@@ -1,5 +1,8 @@
 4.7 publish edince hata veriyor dikkattt
 
+# Çok önemli
+https://docs.microsoft.com/en-us/ef/core/modeling/relationships
+
 https://docs.microsoft.com/en-us/ef/core/querying/basic  
 https://app.pluralsight.com/library/courses/entity-framework-core-getting-started/table-of-contents  
 
