@@ -1,6 +1,6 @@
 # sql server kayıt değişikliklerini yakalar
 
-c# için extensionu yukle
+c# için extensionu yukle  
 https://github.com/christiandelbianco/monitor-table-change-with-sqltabledependency  
 https://www.youtube.com/watch?v=hBwGTTfTs3g
 
