@@ -1,7 +1,8 @@
 # sql server kayıt değişikliklerini yakalar
 
 c# için extensionu yukle
-https://github.com/christiandelbianco/monitor-table-change-with-sqltabledependency
+https://github.com/christiandelbianco/monitor-table-change-with-sqltabledependency  
+https://www.youtube.com/watch?v=hBwGTTfTs3g
 
 ````
 ALTER DATABASE PandapDb SET ENABLE_BROKER  // konfigurasyon için sadece bu yeterli
