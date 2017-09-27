@@ -1,4 +1,16 @@
-4.7 publish edince hata veriyor dikkattt
+4.7 publish edince hata veriyor dikkattt sorun çözümü
+sarı uyarı için .csproj içine
+
+````
+   <Target Name="UpdateOriginalItemSpecs" AfterTargets="ResolveAssemblyReferences">
+    <ItemGroup>
+      <ReferencePath>
+        <OriginalItemSpec>%(ReferencePath.FileName)</OriginalItemSpec>
+      </ReferencePath>
+    </ItemGroup>
+  </Target>
+  
+````
 
 # Çok önemli
 https://docs.microsoft.com/en-us/ef/core/modeling/relationships
