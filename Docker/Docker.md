@@ -43,9 +43,11 @@ docker cp gok-mongo:/Mongox.json d:\mongo1.json
 
 # Sql Server Linux 
 image çekmek için sanal ram 4GB olmalı !!!!!!
-docker pull microsoft/mssql-server-linux
+parola : 8 hane strong olmalı
+localhost yazıp bağlan
 
-docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d microsoft/mssql-server-linux
+docker pull microsoft/mssql-server-linux
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1433:1433 -d microsoft/mssql-server-linux
 
 varsayılan yol : root@f9021a6b89e1:/var/opt/mssql/data#
 
