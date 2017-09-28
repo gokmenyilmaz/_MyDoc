@@ -47,7 +47,7 @@ parola : 8 hane strong olmalı
 localhost yazıp bağlan
 
 docker pull microsoft/mssql-server-linux
-docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1433:1433 -d microsoft/mssql-server-linux
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1433:1433 -d microsoft/mssql-server-linux  
 docker ps -a   
 docker start af56 (id)
 
