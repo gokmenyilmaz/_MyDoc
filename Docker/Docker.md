@@ -51,6 +51,8 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1433:1433 -d microso
 docker ps -a   
 docker start af56 (id)
 
+docker container prune  çalışmayan containerler silinir  
+
 linux a erişim ;  
 
 docker exec -i -t f9021a6b89e1 /bin/bash
