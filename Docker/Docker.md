@@ -48,6 +48,9 @@ localhost yazıp bağlan
 
 docker pull microsoft/mssql-server-linux
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1433:1433 -d microsoft/mssql-server-linux
+docker ps -a   
+docker start af56 (id)
+
 
 varsayılan yol : root@f9021a6b89e1:/var/opt/mssql/data#
 
