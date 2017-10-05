@@ -2,6 +2,7 @@
 https://msdn.microsoft.com/en-us/magazine/dn166926.aspx
 https://stackoverflow.com/questions/14902408/why-does-entity-framework-insert-children-when-i-update-the-parent
 http://www.entityframeworktutorial.net/EntityFramework5/update-entity-graph-using-dbcontext.aspx
+https://app.pluralsight.com/library/courses/entity-framework-enterprise-update/table-of-contents
 
 # publishhatası
 4.7 publish edince hata veriyor dikkattt sorun çözümü
