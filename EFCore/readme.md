@@ -1,7 +1,7 @@
 # Önemli  (Disconnect data adding modifistate problemi)
 https://msdn.microsoft.com/en-us/magazine/dn166926.aspx
 
-
+# publishhatası
 4.7 publish edince hata veriyor dikkattt sorun çözümü
 sarı uyarı için .csproj içine
 
