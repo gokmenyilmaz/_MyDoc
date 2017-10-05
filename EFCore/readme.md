@@ -1,5 +1,6 @@
 # Önemli  (Disconnect data adding modifistate problemi)
 https://msdn.microsoft.com/en-us/magazine/dn166926.aspx
+https://stackoverflow.com/questions/14902408/why-does-entity-framework-insert-children-when-i-update-the-parent
 
 # publishhatası
 4.7 publish edince hata veriyor dikkattt sorun çözümü
