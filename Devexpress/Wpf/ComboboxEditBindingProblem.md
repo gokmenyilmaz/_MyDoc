@@ -1,4 +1,6 @@
 # EditValue SelectedItem veya Itemssourceden önce olması  
+https://www.devexpress.com/Support/Center/Question/Details/B222970/comboboxedit-selecteditem-editvalue-binding
+
 
 Kaydı bulamamasına neden olur..
 
