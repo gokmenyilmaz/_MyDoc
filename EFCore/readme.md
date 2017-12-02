@@ -1,4 +1,4 @@
-#DDD efcore2
+# DDD efcore2
 https://msdn.microsoft.com/tr-tr/magazine/mt826347
 
 # Önemli  (Disconnect data adding modifistate problemi)
