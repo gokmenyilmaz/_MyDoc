@@ -1,5 +1,6 @@
  Install-Package FontAwesome.WPF    
- http://fontawesome.io/cheatsheet/
+ http://fontawesome.io/cheatsheet/    
+ <Button FontSize="44" fa:Awesome.Content="Flag"/>
 ````
 <Window x:Class="WpfApp3.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
