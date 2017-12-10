@@ -1,4 +1,5 @@
- Install-Package FontAwesome.WPF
+ Install-Package FontAwesome.WPF    
+ http://fontawesome.io/cheatsheet/
 ````
 <Window x:Class="WpfApp3.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
