@@ -1,0 +1,28 @@
+ ````
+ 
+ async haftaDegisti() {
+
+        this.macfoyPath = `/${this.club}/${this.yil}/MacFoy/${this.hafta}/${this.grup}`;
+        this.oyuncularPath = `/${this.club}/${this.yil}/Oyuncular`;
+
+     
+        var x= await this.OyuncuYukle();
+        console.log(this.oyuncular);
+        console.log("oyunculardan sonrası");
+     
+
+    }
+
+    async OyuncuYukle():Promise<any>
+    {
+        await new Promise(resolve => {
+            this.af.list<Oyuncu>(this.oyuncularPath).valueChanges()
+                   .subscribe(p => {                                       
+                                this.oyuncular = p;
+                                resolve();
+                             });
+        });
+
+    }
+    
+    ````
