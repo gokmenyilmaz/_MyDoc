@@ -5,3 +5,5 @@ https://channel9.msdn.com/coding4fun/blog/Massive-set-of-WPF-Samples-and-Communi
 
 # mvvm
 https://gallery.technet.microsoft.com/WPF-EntityFramework-MVVM-c7167301
+https://channel9.msdn.com/Events/TechEd/NorthAmerica/2012/DEV216
+https://msdn.microsoft.com/en-us/magazine/dd419663.aspx
