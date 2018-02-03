@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLocator", "ModelLocator.csproj", "{87D45207-34A7-4712-A1D9-34A7C1AED84B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87D45207-34A7-4712-A1D9-34A7C1AED84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D45207-34A7-4712-A1D9-34A7C1AED84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D45207-34A7-4712-A1D9-34A7C1AED84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D45207-34A7-4712-A1D9-34A7C1AED84B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7EB7F98-1C0E-46B3-89B9-C339EC861534}
+	EndGlobalSection
+EndGlobal
