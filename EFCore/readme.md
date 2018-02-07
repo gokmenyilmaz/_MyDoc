@@ -1,3 +1,6 @@
+# efcore Enterprise
+https://www.codeproject.com/Articles/1160586/EF-Core-for-Enterprise
+
 # DDD efcore2
 https://msdn.microsoft.com/tr-tr/magazine/mt826347
 
