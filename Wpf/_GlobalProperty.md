@@ -1,3 +1,5 @@
+https://docs.microsoft.com/en-us/dotnet/framework/wpf/getting-started/whats-new#static_properties
+
 ````
 
 <Window x:Class="WpfApp3.MainWindow"
