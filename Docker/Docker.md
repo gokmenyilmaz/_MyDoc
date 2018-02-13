@@ -46,6 +46,9 @@ image çekmek için sanal ram 4GB olmalı !!!!!!
 parola : 8 hane strong olmalı
 localhost yazıp bağlan
 
+
+https://tomssl.com/2018/01/15/running-microsoft-sql-server-on-a-linux-container-in-docker/
+
 docker pull microsoft/mssql-server-linux
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1433:1433 -d microsoft/mssql-server-linux  
 docker ps -a   
