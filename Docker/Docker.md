@@ -1,3 +1,8 @@
+1.Docker for windows kurulur
+2.HyperV-Manager>HypervSettings>Virtual hdd   dockerdisk image yolu seçilir.
+3.Docker restart yapılır
+
+
 Aspnet core için docker,
 
 https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker
