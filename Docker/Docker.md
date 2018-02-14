@@ -44,7 +44,10 @@ docker cp gok-mongo:/Mongox.json d:\mongo1.json
 # Sql Server Linux 
 image çekmek için sanal ram 4GB olmalı !!!!!!
 parola : 8 hane strong olmalı  (Büyük harf vs yoksa çalışmaz)
-localhost yazıp bağlan
+localhost yazıp bağlan farklı port için (localhost,1402)
+
+docker exec -it tomssl_sql /opt/mssql-tools/bin/sqlcmd -S localhost -U sa
+ile test yap
 
 
 https://tomssl.com/2018/01/15/running-microsoft-sql-server-on-a-linux-container-in-docker/
