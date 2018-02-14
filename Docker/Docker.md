@@ -62,12 +62,11 @@ docker start af56 (id)
 docker container prune  çalışmayan containerler silinir  
 
 linux a erişim ;  
-
 docker exec -i -t f9021a6b89e1 /bin/bash
 varsayılan yol : root@f9021a6b89e1:/var/opt/mssql/data#
 
 localden docker a dosya
-docker cp 24092017_db1 7145:/var/pandapdb.bak
+docker cp 24092017_db1 7145:/var/pandapdb.bak     *7145 container id
 
 çalışmazsa log kayıtlarından niye çalışmadığına bak
 
