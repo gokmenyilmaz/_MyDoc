@@ -43,7 +43,7 @@ docker cp gok-mongo:/Mongox.json d:\mongo1.json
 
 # Sql Server Linux 
 image çekmek için sanal ram 4GB olmalı !!!!!!
-parola : 8 hane strong olmalı
+parola : 8 hane strong olmalı  (Büyük harf vs yoksa çalışmaz)
 localhost yazıp bağlan
 
 
