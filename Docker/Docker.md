@@ -1,6 +1,5 @@
 https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker
 
-docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Ankara!06" -p 1433:1433 -v pcdata:/var/opt/mssql -d microsoft/mssql-server-linux
 
 ### 1.Docker for windows kurulur
 ### 2.HyperV-Manager>HypervSettings>Virtual hdd   dockerdisk image yolu seçilir.
@@ -74,7 +73,7 @@ docker pull microsoft/mssql-server-linux
 
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1401:1433 --name sql1 -d microsoft/mssql-server-linux
 
-docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1401:1433 -v d:pcdata:/var/opt --name sql1 -d microsoft/mssql-server-linux
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1500:1433 -v d:\pcdata:/var/opt --name sql1 -d microsoft/mssql-server-linux
 
 
 docker ps -a
