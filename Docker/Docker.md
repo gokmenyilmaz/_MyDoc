@@ -3,6 +3,13 @@
 ### 3.Docker restart yapılır
 
 
+### 1.HyperV kurulur
+### 2.HyperV-Manager>HypervSettings>Virtual hdd   dockerdisk image yolu seçilir.
+### 3.MobyLinuxVM adında sanal makina oluşturulur
+### 4.Docker kurulur  (vitual switch manager altında DockerNat olması gerekir)
+### 5.Docker restart yapılır
+
+
 Aspnet core için docker,
 
 https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker
