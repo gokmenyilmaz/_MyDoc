@@ -1,3 +1,5 @@
+https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker
+
 ### 1.Docker for windows kurulur
 ### 2.HyperV-Manager>HypervSettings>Virtual hdd   dockerdisk image yolu seçilir.
 ### 3.Docker restart yapılır
