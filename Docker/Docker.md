@@ -72,6 +72,9 @@ docker pull microsoft/mssql-server-linux
 
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1401:1433 --name sql1 -d microsoft/mssql-server-linux
 
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1401:1433 -v d:pcdata:/var/opt --name sql1 -d microsoft/mssql-server-linux
+
+
 docker ps -a
 
 docker start af56 (id)
