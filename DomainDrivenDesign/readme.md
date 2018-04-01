@@ -1,3 +1,9 @@
+https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/domain-events-design-implementation
+
+https://www.youtube.com/watch?v=NKidaFu0dWY&t=1992s
+
+
+
 https://www.slideshare.net/matthidinger/onion-architecture  
 https://app.pluralsight.com/library/courses/n-tier-apps-part1/table-of-contents  
 https://app.pluralsight.com/library/courses/n-tier-csharp-part2/table-of-contents  
