@@ -1,3 +1,5 @@
+https://msdn.microsoft.com/pt-pt/magazine/mt149362?author=julie+lerman
+
   ### - propertiler private set tanımlanmalı
   ### - constructur lar private olmalı,  static factory ile oluşturulmalı yada constructur tam validasyonlu
   ### - foreign keyler Id li olmalı (navigation property yasak)
