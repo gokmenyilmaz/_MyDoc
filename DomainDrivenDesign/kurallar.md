@@ -1,4 +1,5 @@
 https://msdn.microsoft.com/pt-pt/magazine/mt149362?author=julie+lerman
+https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/enumeration-classes-over-enum-types
 
   ### - propertiler private set tanımlanmalı
   ### - constructur lar private olmalı,  static factory ile oluşturulmalı yada constructur tam validasyonlu
