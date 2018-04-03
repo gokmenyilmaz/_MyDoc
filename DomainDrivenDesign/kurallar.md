@@ -1,1 +1,1 @@
-** propertiler private set tanımlanmalı **
+  ### propertiler private set tanımlanmalı
