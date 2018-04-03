@@ -5,4 +5,5 @@
   ### - OrdeItem dan Order a referens yasak
   ### - Her repository bir aggregate ile eşleşmeli. (not per entity)
   ### - Repository ler Infrastructure katmanında interface leri domain katmanında olmalı
- 
+        Repository ler uow gibi davranmalı. Save ile graphlar la guncellenmeli
+  ### - Order.Add(_order_item) yasak yerine Order.AddOrderItem tanımlaması yapılmalı (obiqutius language)
