@@ -6,4 +6,5 @@
   ### - Her repository bir aggregate ile eşleşmeli. (not per entity)
   ### - Repository ler Infrastructure katmanında interface leri domain katmanında olmalı
         Repository ler uow gibi davranmalı. Save ile graphlar la guncellenmeli
-  ### - Order.Add(_order_item) yasak yerine Order.AddOrderItem tanımlaması yapılmalı (obiqutius language)
+  ### - Order.Add(_order_item) yasak yerine Order.AddOrderItem tanımlaması yapılmalı
+        Obiqutius language gereğidir. Ortak dil konuşulmalı. 
