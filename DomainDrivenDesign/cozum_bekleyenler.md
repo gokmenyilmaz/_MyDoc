@@ -1,6 +1,15 @@
 ### Database Generate Id hangi katmanda?
 https://github.com/VaughnVernon/IDDD_Samples_NET/blob/master/iddd_collaboration/Domain.Model/Forums/Discussion.cs
 ````
+ public interface IForumRepository
+    {
+        Forum Get(Tenants.Tenant tenantId, ForumId forumId);
+        
+        ForumId GetNextIdentity();
+
+        void Save(Forum forum);
+    }
+
 public Post Post(ForumIdentityService forumIdService, Author author, string subject, string bodyText, PostId replyToPostId = null)
         {
             return new Post(
