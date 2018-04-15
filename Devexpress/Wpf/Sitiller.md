@@ -1,3 +1,13 @@
+````
+global çalışmaz key eklenmesi gerekir
+
+<Style x:Key="c1" TargetType="dxg:LightweightCellEditor" 
+                        BasedOn="{StaticResource {dxgt:GridRowThemeKey ResourceKey=LightweightCellStyle}}" >
+            <Setter Property="Background" Value="Red" />
+ </Style>
+````
+
+
 
 ````
 <Style TargetType="{x:Type dxg:GridColumn}">
