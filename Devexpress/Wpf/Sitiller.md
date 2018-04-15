@@ -15,6 +15,11 @@
 
 ````
 
+````
+<Style x:Key="HeaderHesapSitil" TargetType="dxg:BaseGridHeader">
+        <Setter Property="Background" Value="LightBlue" />
+ </Style>
+````
 
 ````
   <DataTemplate x:Key="ctemplate1">
