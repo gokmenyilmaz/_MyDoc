@@ -5,6 +5,15 @@ global çalışmaz key eklenmesi gerekir
                         BasedOn="{StaticResource {dxgt:GridRowThemeKey ResourceKey=LightweightCellStyle}}" >
             <Setter Property="Background" Value="Red" />
  </Style>
+ 
+ <Style x:Key="dxgTimeStyle" BasedOn="{StaticResource {dxgt:GridRowThemeKey ResourceKey=LightweightCellStyle}}" TargetType="{x:Type dxg:LightweightCellEditor}">
+       <Style.Triggers>
+           <DataTrigger Binding="{Binding Path=isLate}" Value="2">
+               <Setter Property="Background" Value="Red"/>
+               <Setter Property="ToolTip" Value="Arjun here"/>
+           </DataTrigger>
+       </Style.Triggers>
+   </Style>
 ````
 
 
