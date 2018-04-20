@@ -1,3 +1,5 @@
+http://www.wrox.com/WileyCDA/WroxTitle/-NET-Domain-Driven-Design-with-C-Problem-Design-Solution.productCd-0470147563.html
+
 https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/domain-events-design-implementation
 
 https://www.youtube.com/watch?v=NKidaFu0dWY&t=1992s
