@@ -1,3 +1,6 @@
+Julie Lerman   1 buçuk saatlik video
+https://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/DEV-B336?ocid=player
+
 http://www.wrox.com/WileyCDA/WroxTitle/-NET-Domain-Driven-Design-with-C-Problem-Design-Solution.productCd-0470147563.html
 
 https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/domain-events-design-implementation
