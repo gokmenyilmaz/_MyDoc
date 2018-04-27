@@ -1,3 +1,7 @@
+CORS Grag Yand
+https://www.youtube.com/watch?v=JHGkaShoyNs
+
+
 Julie Lerman   1 buçuk saatlik video
 https://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/DEV-B336?ocid=player
 
