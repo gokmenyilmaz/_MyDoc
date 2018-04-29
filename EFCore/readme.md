@@ -1,4 +1,4 @@
-# https://www.thereformedprogrammer.net/six-ways-to-build-better-entity-framework-core-and-ef6-applications/
+### https://www.thereformedprogrammer.net/six-ways-to-build-better-entity-framework-core-and-ef6-applications/
 - test
 
 # efcore Enterprise
