@@ -2,8 +2,6 @@
 https://www.devart.com/dotconnect/oracle/download.html
 ````
 
-
-
 ````
 using Devart.Data.Oracle;
 using Microsoft.EntityFrameworkCore;
