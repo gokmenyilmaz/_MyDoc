@@ -67,10 +67,9 @@ https://tomssl.com/2018/01/15/running-microsoft-sql-server-on-a-linux-container-
 docker pull microsoft/mssql-server-linux
 
 docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=Ankara!06'  -p 1501:1433 --name sql50 -d microsoft/mssql-server-linux:2017-latest
-localhost,5001 yazarak bağlanlınılır SSMO dan
 
+- localhost,5001 yazarak bağlanlınılır SSMO dan
 
-docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Ankara!06' -p 1500:1433 -v d:\pcdata:/var/opt --name sql1 -d microsoft/mssql-server-linux
 
 
 docker ps -a
