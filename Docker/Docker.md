@@ -38,6 +38,11 @@ Tüm Docker Container’larını silmek (Linux, Mac OS)
 Tüm Docker imajlarını silmek (Linux, Mac OS)
 docker rmi $(docker images -q)
 
+# Pc den dan Container e
+````
+docker cp D:/BELGELERIM/_PANDA/DB/Bak3/. sql50:/var/backups
+````
+
 # Docker dan makinaya
 ````
 docker cp gok-mongo:/Mongox.json d:\mongo1.json
