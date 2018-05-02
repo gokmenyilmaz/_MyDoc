@@ -1,17 +1,9 @@
 https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker
 
-
-### 1.Docker for windows kurulur
-### 2.HyperV-Manager>HypervSettings>Virtual hdd   dockerdisk image yolu seçilir.
+### 1.HyperV-Manager>HypervSettings>Virtual hdd   dockerdisk image yolu seçilir.
+### 2.Docker for windows kurulur
 ### 3.Docker restart yapılır
 ---------------------------------------------------------
-
-### 1.HyperV kurulur
-### 2.HyperV-Manager>HypervSettings>Virtual hdd   dockerdisk image yolu seçilir.
-### 3.MobyLinuxVM adında sanal makina oluşturulur
-### 4.Docker kurulur  (vitual switch manager altında DockerNat olması gerekir)
-### 5.Docker restart yapılır
-
 
 Aspnet core için docker,
 
