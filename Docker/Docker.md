@@ -101,6 +101,9 @@ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 -d
 # postgree sql
 docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
 
+docker arayuzden proxy i 8.8.8.8 olarak değiştir sonra çalışıyor
+
+
 # mongodb
 kullanıcı istemez
 docker run --name some-mongo -p 27017:27017 -d mongo
