@@ -1,5 +1,5 @@
 #  Motivasyon
-## "Bir şeyi basit şekilde açıklayamıyorsan onu yeterince anlamamışsın demektir. Feynman"  
+### "Bir şeyi basit şekilde açıklayamıyorsan onu yeterince anlamamışsın demektir. Feynman"  
 
 
 
