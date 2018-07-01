@@ -1,4 +1,5 @@
 #  Motivation
+- ### refactoring, refactoring, refactoring 
 - ### "Bir şeyi basit şekilde açıklayamıyorsan onu yeterince anlamamışsın demektir."  Feynman
 - ### "Öğrenmek için öğret"
 
