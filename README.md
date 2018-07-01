@@ -1,4 +1,7 @@
-## Karmaşık şeyleri yeterince basit açıklamayamıyorsan o konuyu bilmiyorsun demektir
+##  Motivasyon
+# "Karmaşık şeyleri yeterince basit açıklamayamıyorsan o konuyu bilmiyorsun demektir."  
+
+
 
 
 # https://www.thereformedprogrammer.net/six-ways-to-build-better-entity-framework-core-and-ef6-applications/
