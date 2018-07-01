@@ -1,5 +1,5 @@
-##  Motivasyon
-# "Karmaşık şeyleri yeterince basit açıklamayamıyorsan o konuyu bilmiyorsun demektir."  
+#  Motivasyon
+## "Bir şeyi basit şekilde açıklayamıyorsan onu yeterince anlamamışsın demektir. Feynman"  
 
 
 
