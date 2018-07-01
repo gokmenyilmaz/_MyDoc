@@ -1,13 +1,13 @@
-#  Motivasyon
+#  Motivation
 - ### "Bir şeyi basit şekilde açıklayamıyorsan onu yeterince anlamamışsın demektir."  Feynman
 - ### "Öğrenmek için öğret"
 
 
-# Öğrenme Backlog
+# Learn Backlog
 - ### https://www.thereformedprogrammer.net/six-ways-to-build-better-entity-framework-core-and-ef6-applications/
 - ### http://enterprisecraftsmanship.com/2015/06/22/encapsulation-revisited/
 
-# Genel Notlar
+# Git Basic
 
 push etmeden once yarı yap
 ````
