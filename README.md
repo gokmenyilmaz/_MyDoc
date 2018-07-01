@@ -4,8 +4,8 @@
 
 
 # Öğrenme Backlog
-- # https://www.thereformedprogrammer.net/six-ways-to-build-better-entity-framework-core-and-ef6-applications/
-- # http://enterprisecraftsmanship.com/2015/06/22/encapsulation-revisited/
+- ### https://www.thereformedprogrammer.net/six-ways-to-build-better-entity-framework-core-and-ef6-applications/
+- ### http://enterprisecraftsmanship.com/2015/06/22/encapsulation-revisited/
 
 # Genel Notlar
 
