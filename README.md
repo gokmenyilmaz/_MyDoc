@@ -3,7 +3,7 @@
 - ### "Bir şeyi basit şekilde açıklayamıyorsan onu yeterince anlamamışsın demektir."  Feynman
 - ### "Öğrenmek için öğret"
 
-#  Proje yönetim Prensipleri
+#  Proje yönetim prensipleri
 - ### "Yetkilerin gizliliği ve yatay yönetim
 
 
