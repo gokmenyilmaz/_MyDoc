@@ -3,6 +3,9 @@
 - ### "Bir şeyi basit şekilde açıklayamıyorsan onu yeterince anlamamışsın demektir."  Feynman
 - ### "Öğrenmek için öğret"
 
+#  Proje yönetim Prensipleri
+- ### "Yetkilerin gizliliği ve yatay yönetim
+
 
 # Learn Backlog
 - ### https://www.thereformedprogrammer.net/six-ways-to-build-better-entity-framework-core-and-ef6-applications/
