@@ -70,8 +70,8 @@
             MessageBox.Show(eklenenKayitSayisi.ToString() + " Adet Kayıt Güncellendi");
         }
         ````
-        
-        ````
+        ----------------------------------------------
+    ````
           public class ExcelService
     {
         public ExcelService()
@@ -105,7 +105,8 @@
             return new Tuple<bool, string, List<ExcelImportTanim>>(isValid, sonucBilgi, sutunListe);
         }
     }
-    ````
+````
+-------------------------------------
 ````
  public class ExcelImportTanim
     {
