@@ -69,7 +69,7 @@
             SplashScreenHelper.Instance.HideSplashScreen();
             MessageBox.Show(eklenenKayitSayisi.ToString() + " Adet Kayıt Güncellendi");
         }
-   ````
+  
         ----------------------------------------------
     ````
           public class ExcelService
@@ -105,7 +105,7 @@
             return new Tuple<bool, string, List<ExcelImportTanim>>(isValid, sonucBilgi, sutunListe);
         }
     }
-````
+
 -------------------------------------
 ````
  public class ExcelImportTanim
