@@ -69,7 +69,7 @@
             SplashScreenHelper.Instance.HideSplashScreen();
             MessageBox.Show(eklenenKayitSayisi.ToString() + " Adet Kayıt Güncellendi");
         }
-        ````
+   ````
         ----------------------------------------------
     ````
           public class ExcelService
