@@ -1,5 +1,8 @@
 ng serve
 
+önce çalıştır
+extensiondan chrome  debugger yukle
+
 ````
 {
     "version": "0.2.0",
