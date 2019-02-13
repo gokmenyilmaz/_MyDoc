@@ -1,0 +1,62 @@
+````
+using System;
+using System.ComponentModel;
+using System.Reflection;
+
+public class Program
+{
+    public static void Main()
+    {
+        JWT x = new JWT();
+        var sonuc = x.Topla(2).Carp(5).Sonuc();
+        Console.WriteLine(sonuc);
+
+        var u = HeaderName.Algorithm.GetHeaderName();
+
+    }
+}
+
+public sealed class JWT
+{
+    int t = 0;
+    public JWT Topla(int sayi)
+    {
+        t += sayi;
+        return this;
+    }
+
+    public JWT Carp(int sayi)
+    {
+        t *= sayi;
+        return this;
+    }
+
+    public int Sonuc()
+    {
+        return t;
+    }
+}
+
+internal static class EnumExtensions
+{
+    public static string GetHeaderName(this HeaderName value) => GetDescription(value);
+    private static string GetDescription(object value) => value.GetType()
+                                                               .GetField(value.ToString())
+                                                               .GetCustomAttribute<DescriptionAttribute>()?.Description ?? value.ToString();
+}
+public enum HeaderName
+{
+    [Description("typ")]
+    Type,
+
+    [Description("cty")]
+    ContentType,
+
+    [Description("alogoritma ile konular")]
+    Algorithm,
+
+    [Description("kid")]
+    KeyId
+}
+
+````
