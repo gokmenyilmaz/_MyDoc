@@ -1,9 +1,9 @@
 # NATIVE IMAGE GENERATOR
 
-JIT
+## JIT
 Code-> IL-> Machine Code
 
-Native Image Generator
+## Native Image Generator
 Code->Machine Code(windows PE Image)
 
 Sdk Folder
