@@ -12,8 +12,8 @@ C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools
 Native Code Generator
 Developer Command Promt
 
-ngen install c:\source\bin\release\wpfApplication.exe
-ngen uninstall wpfApplication.exe
+-- ngen install c:\source\bin\release\wpfApplication.exe
+-- ngen uninstall wpfApplication.exe
 
 C:\Windows\assembly bu klasör alıtına kopyalanır. wpfApplication.ni.exe şeklinde 64 veya 32 bit olmasına
 göre klasör altına atılır
