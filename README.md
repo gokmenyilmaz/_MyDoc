@@ -1,3 +1,7 @@
+# Microservice
+Örneğin resim boyutları ayarlama sitesi
+tek işi yapıyor parametreler uygulamadan bağımsız
+
 #  Motivation
 - ### refactoring, refactoring, refactoring 
 - ### "Bir şeyi basit şekilde açıklayamıyorsan onu yeterince anlamamışsın demektir."  Feynman
