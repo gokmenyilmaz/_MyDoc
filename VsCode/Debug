@@ -10,15 +10,29 @@ lunch.json
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:4200",
             "webRoot": "${workspaceRoot}"
-        },
-        {
-            "type": "chrome",
-            "request": "attach",
-            "name": "Attach to Chrome",
-            "port": 9222,
-            "webRoot": "${workspaceRoot}"
         }
+      
     ]
 }
 
 ````
+
+npm start
+Debug için F5
+
+React için
+````
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceRoot}/src"
+        }
+    ]
+}
+````
+
