@@ -1,3 +1,6 @@
+https://app.pluralsight.com/library/courses/creating-flexible-wpf-business-application-screens-playbook/table-of-contents
+https://app.pluralsight.com/library/courses/clean-view-models-assisticant/table-of-contents
+
 http://markdownpad.com/
 ve 
 markdownmonster iyi örnekler
