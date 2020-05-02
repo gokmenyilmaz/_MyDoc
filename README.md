@@ -1,3 +1,6 @@
+# IIS Express
+  C:\Program Files\IIS Express>iisexpress /path:D:\EDENETIM-TFS\Services\ /port:27074
+  
 ## Microservice
 Örneğin resim boyutları ayarlama sitesi
 tek işi yapıyor parametreler uygulamadan bağımsız
@@ -40,5 +43,4 @@ Gist yerine :)
   
  https://testmysite.withgoogle.com/intl/tr-tr?utm_source=google_search&utm_medium=dcallout&utm_campaign=c_tr 
  
-  # IIS Express
-  C:\Program Files\IIS Express>iisexpress /path:D:\EDENETIM-TFS\Services\ /port:27074
+  
