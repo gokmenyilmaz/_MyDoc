@@ -1,0 +1,1 @@
+New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -DnsName "bauxite.com.tr" -FriendlyName "GySiteCert" -NotAfter (Get-Date).AddYears(10)
