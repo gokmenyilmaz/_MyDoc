@@ -11,10 +11,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-
             RSA();
-        
-
             Console.WriteLine("Hello World!");
         }
 
@@ -34,7 +31,6 @@ namespace ConsoleApp2
             var enc = Encrypt(text);
 
             Console.WriteLine("RSA // Encrypted Text: " + enc);
-
 
             var dec = Decrypt(enc);
             Console.WriteLine("RSA // Decrypted Text: " + dec);
