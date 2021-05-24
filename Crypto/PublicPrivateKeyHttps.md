@@ -4,7 +4,7 @@ Public/Private key explaining,
 
 ## how to works https? 
 
-http is secure way for data transfer method on web.
+https is secure way for data transfer on web.
 
 Web hosting site have a private key.
 
