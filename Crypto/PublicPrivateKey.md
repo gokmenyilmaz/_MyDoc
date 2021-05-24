@@ -5,12 +5,13 @@ Public/Private key explaining,
 ## how to works https? 
 
 http is secure way for data transfer method on web.
-Web hosting site have a private key.
-Client computers have public keys. 
-These keys are located in windows certificates section.
 
+Web hosting site have a private key.
+
+Client computers have public keys. 
+These keys are located in windows certificates section. 
 The browser encrypts html data using the public key
-and sends it to Web hosting address.
+and sends it to Web hosting address. 
 
 The host web site decrypts html text using private key.
 
