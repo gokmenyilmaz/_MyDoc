@@ -6,7 +6,7 @@
     - Application property/publish/application files> seçilir  
     Gelen tablodan hash sutunundan sorunlu olan file çıkarılır
     
- -vs2022 ile github arasında CRLF vs LF uyumsuzluğu olabilir.
+ - vs2022 ile github arasında CRLF vs LF uyumsuzluğu olabilir.
  ghpages dosyayı indirirken sadece LF ekliyor yayınlarken CRLF olduğu için hash hatası alınır.
 
 - Git Dosya Ayarları
