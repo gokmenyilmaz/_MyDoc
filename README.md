@@ -1,6 +1,29 @@
-## IIS Express
+## IIS Express direk çalıştırma
   C:\Program Files\IIS Express>iisexpress /path:D:\EDENETIM-TFS\Services\ /port:27074
   
+## IIS express remote connection
+
+Güvenlik duvarı gelen kurala
+63075 portu eklenecek
+bilgisayar yeniden başlatılacak
+
+
+VS2022 yönetici modunda açılacak
+
+C:\Users\Gokmen1977\PandapNet\.vs\PandapNet\config 
+Applicationhost.config 
+
+ <site name="Pandap.Api" id="1">
+        <application path="/" applicationPool="Pandap.Api AppPool">
+          <virtualDirectory path="/" physicalPath="C:\Users\Gokmen1977\PandapNet\Pandap.Api" />
+        </application>
+        <bindings>
+    	  <binding protocol="http" bindingInformation="*:63075:192.168.1.5" />
+          <binding protocol="http" bindingInformation="*:63075:localhost" />
+  	</bindings>
+ </site>
+
+
 ## Microservice
 Örneğin resim boyutları ayarlama sitesi
 tek işi yapıyor parametreler uygulamadan bağımsız
